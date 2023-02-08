@@ -7,7 +7,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # title = sys.argv[1]
 title = input ("What you would like to talk about?")
 # print (title)
-print ("Your title is:" + title)
+print ("Your title is: " + title)
 
 new_prompt = "I want to write a blog posy about" + title 
 
